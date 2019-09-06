@@ -108,11 +108,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void editContact(Uri contactUri, String email, String message1) {
+    public void editContact(Uri contactUri, String email, String message) {
         Intent intent = new Intent(Intent.ACTION_EDIT);
         intent.setData(Uri.parse(""));
         intent.putExtra(ContactsContract.Intents.Insert.EMAIL, email);
-        intent.putExtra(Intent.EXTRA_TEXT, massage);
+        intent.putExtra(Intent.EXTRA_TEXT, message);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
