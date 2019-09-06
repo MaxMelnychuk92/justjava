@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#009688</item>
+        <item name="colorPrimaryDark">#004D40</item>
+        <item name="colorAccent">#B2DFDB</item>
+        <item name="colorButtonNormal">#1DE9B6</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+        <style name="HeaderTextStyle">
+            <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">48dp</item>
+
+            <item name="android:textAllCaps">true</item>
+            <item name="android:textSize">15sp</item>
+        </style>
+
+
+    <!-- style for check textview -->
+    <!-- я додав parent="Theme.AppCompat.Light", щоб працювало на платформах до АПІ лоліпап, AppCompat - це спеціальна бібліотека, на версіях вище використовуєтся parent="Theme.Material"  -->
+        <style name="TextStyle">
+        <item name="android:layout_width">wrap_content</item>
+            <item name= "android:layout_height">wrap_content</item>
+            <item name= "android:textSize">16sp</item>
+
+            <item name="android:textStyle">italic</item>
+
+    </style>
+
+
+
+
+</resources>
